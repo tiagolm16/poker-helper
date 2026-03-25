@@ -1,10 +1,33 @@
+# Compiled class files
+*.class
+
+# Logs
+*.log
+
+# Crash logs
+hs_err_pid*
+replay_pid*
+
+# Package files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Maven
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+
+# Kotlin
 .kotlin
 
-### IntelliJ IDEA ###
+# IntelliJ IDEA
+.idea/
 .idea/modules.xml
 .idea/jarRepositories.xml
 .idea/compiler.xml
@@ -12,8 +35,9 @@ target/
 *.iws
 *.iml
 *.ipr
+out/
 
-### Eclipse ###
+# Eclipse
 .apt_generated
 .classpath
 .factorypath
@@ -22,7 +46,7 @@ target/
 .springBeans
 .sts4-cache
 
-### NetBeans ###
+# NetBeans
 /nbproject/private/
 /nbbuild/
 /dist/
@@ -32,8 +56,9 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-### VS Code ###
+# VS Code
 .vscode/
 
-### Mac OS ###
+# OS files
 .DS_Store
+Thumbs.dbgit add .gitignore
